@@ -9,11 +9,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Conexión al servidor MLflow
-# dagshub.init(
-#     repo_owner="reroes799",
-#     repo_name="ejemplo02",
-#     mlflow=True
-# )
+dagshub.init(
+     repo_owner="moises.luzardo",
+     repo_name="clase07",
+     mlflow=True
+)
 
 mlflow.set_tracking_uri("https://dagshub.com/moises.luzardo/clase07.mlflow")
 
