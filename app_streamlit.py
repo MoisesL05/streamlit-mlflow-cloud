@@ -15,7 +15,7 @@ load_dotenv()
 #     mlflow=True
 # )
 
-mlflow.set_tracking_uri("https://dagshub.com/reroes799/ejemplo02.mlflow")
+mlflow.set_tracking_uri("https://dagshub.com/moises.luzardo/clase07.mlflow")
 
 st.set_page_config(
     page_title="Predicción Bank Marketing",
